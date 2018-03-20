@@ -9,7 +9,6 @@ Voltage out: +18 VDC|0 VDC|-18 VDC
 Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This power supply is intended to be used with 18-0-18 VAC center tapped transformer for audio/amp applications.
 
 Application:
-```
 ![Xfo..rm3 XFPCB-0004 Bipolar Power Supply Application](../master/graphics/kicad_psu_application.png)
 
 Schema
