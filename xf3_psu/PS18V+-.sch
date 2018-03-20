@@ -1,0 +1,460 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:x_SCH
+LIBS:PSU-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "18V Dual Rail Powe Supply"
+Date "2016-02-02"
+Rev "2"
+Comp "XForm3 Inc"
+Comment1 "Bridge polarity fixed"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM7918CT U4
+U 1 1 55A027C6
+P 7640 2955
+F 0 "U4" H 7845 2765 40  0000 C CNN
+F 1 "LM7918CT" H 7485 2765 40  0000 L CNN
+F 2 "x_components:x_TO220Heatsink" H 7640 2855 30  0001 C CIN
+F 3 "" H 7640 2955 60  0000 C CNN
+	1    7640 2955
+	1    0    0    1   
+$EndComp
+$Comp
+L LM7818ACT U3
+U 1 1 55A029C3
+P 5020 2950
+F 0 "U3" H 4835 3130 40  0000 C CNN
+F 1 "LM7818ACT" H 4935 3140 40  0000 L CNN
+F 2 "x_components:x_TO220Heatsink" H 4975 2840 30  0001 C CIN
+F 3 "" H 5020 2950 60  0000 C CNN
+	1    5020 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 55A02B0A
+P 5020 3495
+F 0 "#PWR06" H 5020 3245 50  0001 C CNN
+F 1 "GND" H 5020 3345 50  0000 C CNN
+F 2 "" H 5020 3495 60  0000 C CNN
+F 3 "" H 5020 3495 60  0000 C CNN
+	1    5020 3495
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 55A02B4B
+P 7640 3500
+F 0 "#PWR07" H 7640 3250 50  0001 C CNN
+F 1 "GND" H 7640 3350 50  0000 C CNN
+F 2 "" H 7640 3500 60  0000 C CNN
+F 3 "" H 7640 3500 60  0000 C CNN
+	1    7640 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C15
+U 1 1 55A02E4F
+P 5710 3220
+F 0 "C15" H 5825 3200 50  0000 L CNN
+F 1 "3300uF" H 5825 3130 50  0000 L CNN
+F 2 "x_components:x_CapRadial13mm" H 5748 3070 30  0001 C CNN
+F 3 "" H 5710 3220 60  0000 C CNN
+	1    5710 3220
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C16
+U 1 1 55A02F6C
+P 6775 3225
+F 0 "C16" H 6940 3280 50  0000 L CNN
+F 1 "3300uF" H 6810 3350 50  0000 L CNN
+F 2 "x_components:x_CapRadial13mm" H 6813 3075 30  0001 C CNN
+F 3 "" H 6775 3225 60  0000 C CNN
+	1    6775 3225
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 55A03104
+P 5710 3470
+F 0 "#PWR08" H 5710 3220 50  0001 C CNN
+F 1 "GND" H 5710 3320 50  0000 C CNN
+F 2 "" H 5710 3470 60  0000 C CNN
+F 3 "" H 5710 3470 60  0000 C CNN
+	1    5710 3470
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 55A031F1
+P 6940 3490
+F 0 "#PWR09" H 6940 3240 50  0001 C CNN
+F 1 "GND" H 6940 3340 50  0000 C CNN
+F 2 "" H 6940 3490 60  0000 C CNN
+F 3 "" H 6940 3490 60  0000 C CNN
+	1    6940 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 55A049FF
+P 4400 4400
+F 0 "R7" V 4480 4400 50  0000 C CNN
+F 1 "10K" V 4400 4400 50  0000 C CNN
+F 2 "x_components:x_ResistorHorizontalRM10mm" V 4330 4400 30  0001 C CNN
+F 3 "" H 4400 4400 30  0000 C CNN
+	1    4400 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 55A04A8F
+P 4650 4600
+F 0 "#PWR010" H 4650 4350 50  0001 C CNN
+F 1 "GND" H 4650 4450 50  0000 C CNN
+F 2 "" H 4650 4600 60  0000 C CNN
+F 3 "" H 4650 4600 60  0000 C CNN
+	1    4650 4600
+	1    0    0    -1  
+$EndComp
+Text Label 3400 4400 0    60   ~ 0
+-18V0
+Text Label 6335 2170 0    60   ~ 0
+AC18V1
+Text Label 6335 3735 0    60   ~ 0
+AC18V0
+Text HLabel 1400 1200 0    60   Input ~ 0
+AC18V0
+Text HLabel 1400 1300 0    60   Input ~ 0
+AC18V1
+Text HLabel 1400 1600 0    60   Input ~ 0
++18V0
+Text HLabel 1400 1700 0    60   Input ~ 0
+-18V0
+Text Label 1900 1200 0    60   ~ 0
+AC18V0
+Text Label 1900 1300 0    60   ~ 0
+AC18V1
+Text Label 1900 1600 0    60   ~ 0
++18V0
+Text Label 1900 1700 0    60   ~ 0
+-18V0
+Text Label 8170 2905 0    60   ~ 0
+-18V0
+$Comp
+L C C17
+U 1 1 56A2B65E
+P 7080 3225
+F 0 "C17" H 7105 3325 50  0000 L CNN
+F 1 "220nF" H 7105 3125 50  0000 L CNN
+F 2 "x_components:x_CapDisk9mm" H 7118 3075 50  0001 C CNN
+F 3 "" H 7080 3225 50  0000 C CNN
+	1    7080 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 56B1DC27
+P 5475 3220
+F 0 "C14" H 5220 3185 50  0000 L CNN
+F 1 "220nF" H 5230 3115 50  0000 L CNN
+F 2 "x_components:x_CapDisk9mm" H 5513 3070 50  0001 C CNN
+F 3 "" H 5475 3220 50  0000 C CNN
+	1    5475 3220
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG011
+U 1 1 5689A60C
+P 6000 2900
+F 0 "#FLG011" H 6000 2995 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 3080 50  0000 C CNN
+F 2 "" H 6000 2900 50  0000 C CNN
+F 3 "" H 6000 2900 50  0000 C CNN
+	1    6000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C13
+U 1 1 56C3FB73
+P 4400 3220
+F 0 "C13" H 4425 3320 50  0000 L CNN
+F 1 "470uF" H 4425 3120 50  0000 L CNN
+F 2 "x_components:x_CapRadial10mm" H 4438 3070 50  0001 C CNN
+F 3 "" H 4400 3220 50  0000 C CNN
+	1    4400 3220
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C18
+U 1 1 56C40535
+P 8090 3225
+F 0 "C18" H 7935 3075 50  0000 L CNN
+F 1 "470uF" H 7845 3140 50  0000 L CNN
+F 2 "x_components:x_CapRadial10mm" H 8128 3075 50  0001 C CNN
+F 3 "" H 8090 3225 50  0000 C CNN
+	1    8090 3225
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D7
+U 1 1 56D1C3EA
+P 4980 2515
+F 0 "D7" H 4980 2615 50  0000 C CNN
+F 1 "1N4007" H 4980 2415 50  0000 C CNN
+F 2 "x_components:x_Diode" H 4980 2515 50  0001 C CNN
+F 3 "" H 4980 2515 50  0000 C CNN
+	1    4980 2515
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D9
+U 1 1 56D1D236
+P 7630 2470
+F 0 "D9" H 7630 2570 50  0000 C CNN
+F 1 "1N4007" H 7630 2370 50  0000 C CNN
+F 2 "x_components:x_Diode" H 7630 2470 50  0001 C CNN
+F 3 "" H 7630 2470 50  0000 C CNN
+	1    7630 2470
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D6
+U 1 1 56D1DCE2
+P 4055 3220
+F 0 "D6" H 4055 3320 50  0000 C CNN
+F 1 "1N4007" H 4055 3120 50  0000 C CNN
+F 2 "x_components:x_Diode" H 4055 3220 50  0001 C CNN
+F 3 "" H 4055 3220 50  0000 C CNN
+	1    4055 3220
+	0    1    1    0   
+$EndComp
+$Comp
+L D D10
+U 1 1 56D1E597
+P 8550 3235
+F 0 "D10" H 8550 3335 50  0000 C CNN
+F 1 "1N4007" H 8550 3135 50  0000 C CNN
+F 2 "x_components:x_Diode" H 8550 3235 50  0001 C CNN
+F 3 "" H 8550 3235 50  0000 C CNN
+	1    8550 3235
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 59050429
+P 3010 3700
+F 0 "R1" V 3090 3700 50  0000 C CNN
+F 1 "10K" V 3010 3700 50  0000 C CNN
+F 2 "x_components:x_ResistorHorizontalRM10mm" V 2940 3700 30  0001 C CNN
+F 3 "" H 3010 3700 30  0000 C CNN
+	1    3010 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5905042F
+P 3260 3900
+F 0 "#PWR012" H 3260 3650 50  0001 C CNN
+F 1 "GND" H 3260 3750 50  0000 C CNN
+F 2 "" H 3260 3900 60  0000 C CNN
+F 3 "" H 3260 3900 60  0000 C CNN
+	1    3260 3900
+	1    0    0    -1  
+$EndComp
+Text Label 2010 3700 0    60   ~ 0
++18V0
+Text Label 4170 2900 0    60   ~ 0
++18V0
+Wire Wire Line
+	4095 4400 4250 4400
+Wire Wire Line
+	4550 4400 4650 4400
+Wire Wire Line
+	4650 4400 4650 4600
+Wire Wire Line
+	3795 4400 3350 4400
+Wire Wire Line
+	1400 1200 1900 1200
+Wire Wire Line
+	1400 1300 1900 1300
+Wire Wire Line
+	1400 1600 1900 1600
+Wire Wire Line
+	1400 1700 1900 1700
+Wire Wire Line
+	5020 3200 5020 3495
+Wire Wire Line
+	5475 3370 5710 3370
+Wire Wire Line
+	5710 3370 5710 3470
+Wire Wire Line
+	5475 3070 5710 3070
+Wire Wire Line
+	5595 2515 5595 3070
+Connection ~ 5595 2900
+Connection ~ 5595 3070
+Wire Wire Line
+	7640 3205 7640 3500
+Wire Wire Line
+	6775 3375 7080 3375
+Wire Wire Line
+	6940 3375 6940 3490
+Connection ~ 6940 3375
+Wire Wire Line
+	6775 3075 6775 3030
+Wire Wire Line
+	6775 3030 7080 3030
+Wire Wire Line
+	7080 3030 7080 3075
+Connection ~ 6930 3030
+Wire Wire Line
+	8040 2905 8550 2905
+Wire Wire Line
+	4400 3070 4400 2900
+Wire Wire Line
+	4400 3370 4400 3435
+Wire Wire Line
+	4055 3435 5020 3435
+Connection ~ 5020 3435
+Wire Wire Line
+	8090 2470 8090 3075
+Connection ~ 8090 2905
+Wire Wire Line
+	8090 3375 8090 3450
+Wire Wire Line
+	7640 3450 8550 3450
+Connection ~ 7640 3450
+Wire Wire Line
+	5130 2515 5595 2515
+Wire Wire Line
+	7135 2470 7480 2470
+Wire Wire Line
+	7780 2470 8090 2470
+Wire Wire Line
+	4055 3070 4055 2900
+Wire Wire Line
+	4055 3370 4055 3435
+Connection ~ 4400 3435
+Wire Wire Line
+	8550 2905 8550 3085
+Wire Wire Line
+	8550 3450 8550 3385
+Connection ~ 8090 3450
+Wire Wire Line
+	2710 3700 2860 3700
+Wire Wire Line
+	3160 3700 3260 3700
+Wire Wire Line
+	3260 3700 3260 3900
+Wire Wire Line
+	2410 3700 1960 3700
+Wire Wire Line
+	4830 2515 4620 2515
+Wire Wire Line
+	4620 2515 4620 2900
+Wire Wire Line
+	4620 2900 4055 2900
+Connection ~ 4400 2900
+Wire Wire Line
+	5420 2900 6035 2900
+Connection ~ 6000 2900
+$Comp
+L PWR_FLAG #FLG013
+U 1 1 5689A670
+P 6680 2900
+F 0 "#FLG013" H 6680 2995 50  0001 C CNN
+F 1 "PWR_FLAG" H 6680 3080 50  0000 C CNN
+F 2 "" H 6680 2900 50  0000 C CNN
+F 3 "" H 6680 2900 50  0000 C CNN
+	1    6680 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6635 2900 6680 2900
+Wire Wire Line
+	6675 2900 7135 2900
+Connection ~ 6675 2900
+Wire Wire Line
+	7135 2470 7135 2905
+Wire Wire Line
+	7135 2905 7240 2905
+Connection ~ 7135 2900
+Wire Wire Line
+	6930 3030 6930 2900
+Connection ~ 6930 2900
+$Comp
+L BRIDGE D3
+U 1 1 5950035D
+P 6335 2900
+F 0 "D3" H 6526 2724 40  0000 C CNN
+F 1 "BRIDGE" H 6505 2667 40  0000 C CNN
+F 2 "x_components:x_DiodeBridge" H 6335 2900 60  0001 C CNN
+F 3 "" H 6335 2900 60  0000 C CNN
+	1    6335 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6335 2600 6335 2170
+Wire Wire Line
+	6335 3200 6335 3735
+$Comp
+L LED D1
+U 1 1 5950101E
+P 2560 3700
+F 0 "D1" H 2560 3800 50  0000 C CNN
+F 1 "LED" H 2560 3600 50  0000 C CNN
+F 2 "x_components:x_Led" H 2560 3700 50  0001 C CNN
+F 3 "" H 2560 3700 50  0000 C CNN
+	1    2560 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D2
+U 1 1 59501B20
+P 3945 4400
+F 0 "D2" H 3945 4500 50  0000 C CNN
+F 1 "LED" H 3945 4300 50  0000 C CNN
+F 2 "x_components:x_LedBlue" H 3945 4400 50  0001 C CNN
+F 3 "" H 3945 4400 50  0000 C CNN
+	1    3945 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
