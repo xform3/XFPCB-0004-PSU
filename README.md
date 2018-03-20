@@ -28,3 +28,8 @@ Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This pow
 ## PCB
 ![Xform3 XFPCB-0004 Bipolar Power Supply KiCAD PCB](../master/graphics/kicad_psu_pcb.png)
 
+
+## PROTOTYPE
+![Xform3 XFPCB-0004 Bipolar Power Supply PROTOTYPE ](../master/graphics/kicad_psu_photo.png)
+![Xform3 XFPCB-0004 Bipolar Power Supply PROTOTYPE ](../master/graphics/kicad_psu_photo2.png)
+
