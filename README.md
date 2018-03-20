@@ -10,10 +10,9 @@ Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This pow
 
 ### Included Files:
 
-
-
 ```
-XFPCB-0004-PSU/xf3_psu/ KiCAD Project File
+xf3_psu/  -KiCAD Project Files
+* [xf3_psu_mask/](https://github.com/xform3/XFPCB-0004-PSU/tree/master/xf3_psu_mask) -PCB Gerber, Drill, Silk/Solder Masks, Positive and Negative plots
 ```
 ## Application:
 ![Xfo..rm3 XFPCB-0004 Bipolar Power Supply Application](../master/graphics/kicad_psu_application.png)
