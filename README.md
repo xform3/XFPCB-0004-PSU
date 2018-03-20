@@ -6,7 +6,7 @@
 
 ### Output Voltage: +18 VDC | 0 VDC | -18 VDC
 
-Dual R±DC Output Power Supply, built around LM7918 & LM1818 regulators. This power supply is intended to be used with 18-0-18 VAC center tapped transformer for audio/amplifier applications.
+Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This power supply is intended to be used with 18-0-18 VAC center tapped transformer for audio/amplifier applications.
 
 ## Included Files:
 * [xf3_psu](https://github.com/xform3/XFPCB-0004-PSU/tree/master/xf3_psu)  - *KiCAD Project Files*
