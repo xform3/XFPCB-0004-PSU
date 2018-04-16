@@ -8,6 +8,8 @@
 
 Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This power supply is intended to be used with 18-0-18 VAC center tapped transformer for audio/amplifier applications.
 
+## [Compatible with XFPCB-0003_AMP Class-AB Amplifier](https://github.com/xform3/xfpcb-0003-amp)
+
 ## Included Files:
 * [xf3_psu](https://github.com/xform3/XFPCB-0004-PSU/tree/master/xf3_psu)  - *KiCAD Project Files*
 * [xf3_psu_mask](https://github.com/xform3/XFPCB-0004-PSU/tree/master/xf3_psu_mask) - *PCB Gerber, Drill, Silk/Solder Masks, Positive and Negative plots*
