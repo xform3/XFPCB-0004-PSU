@@ -1,0 +1,34 @@
+Title,
+Revision,
+Date,2018-03-14
+Generated,Sat 19 May 2018 01:26:42 AM EDT
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,23
+Total Unique Parts,13
+
+
+
+Ref,Qty,Value,Footprint,Datasheet,
+C13 C18 ,2,470uF,x_components:x_CapRadial10mm,
+C14 C17 ,2,220nF,x_components:x_CapDisk9mm,
+C15 C16 ,2,3300uF,x_components:x_CapRadial13mm,
+D1 ,1,LED,x_components:x_Led,
+D2 ,1,LED,x_components:x_LedBlue,
+D3 ,1,BRIDGE,x_components:x_DiodeBridge,
+D6 D7 D9 D10 ,4,1N4007,x_components:x_Diode,
+P1 ,1,CONN_01X03,x_components:x_PhoenixX3flipped,
+P2 ,1,CONN_01X03,x_components:x_PhoenixX3,
+P3 P4 P5 P6 ,4,xhole,x_components:x_HoleRound,
+R1 R7 ,2,10K,x_components:x_ResistorHorizontalRM10mm,
+U3 ,1,LM7818ACT,x_components:x_TO220Heatsink,
+U4 ,1,LM7918CT,x_components:x_TO220Heatsink,
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Sat 19 May 2018 01:26:42 AM EDT

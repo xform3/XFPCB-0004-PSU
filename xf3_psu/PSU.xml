@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>PSU.sch</source>
-    <date>Sat 10 Mar 2018 09:47:44 AM EST</date>
-    <tool>Eeschema 4.0.5+dfsg1-4</tool>
+    <source>/home/misha/git/XFPCB-0004_PSU/xf3_psu/PSU.sch</source>
+    <date>Sat 19 May 2018 01:26:42 AM EDT</date>
+    <tool>Eeschema 4.0.7+dfsg1-1~bpo9+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
-        <date/>
+        <date>2018-03-14</date>
         <source>PSU.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -35,14 +35,14 @@
     <comp ref="P1">
       <value>CONN_01X03</value>
       <footprint>x_components:x_PhoenixX3flipped</footprint>
-      <libsource lib="conn" part="CONN_01X03"/>
+      <libsource lib="PSU-cache" part="CONN_01X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58819CDA</tstamp>
     </comp>
     <comp ref="P2">
       <value>CONN_01X03</value>
       <footprint>x_components:x_PhoenixX3</footprint>
-      <libsource lib="conn" part="CONN_01X03"/>
+      <libsource lib="PSU-cache" part="CONN_01X03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5881BB97</tstamp>
     </comp>
@@ -77,14 +77,14 @@
     <comp ref="U4">
       <value>LM7918CT</value>
       <footprint>x_components:x_TO220Heatsink</footprint>
-      <libsource lib="regul" part="LM7918CT"/>
+      <libsource lib="PSU-cache" part="LM7918CT"/>
       <sheetpath names="/Sheet5881B464/" tstamps="/5881B465/"/>
       <tstamp>55A027C6</tstamp>
     </comp>
     <comp ref="U3">
       <value>LM7818ACT</value>
       <footprint>x_components:x_TO220Heatsink</footprint>
-      <libsource lib="regul" part="LM7818ACT"/>
+      <libsource lib="PSU-cache" part="LM7818ACT"/>
       <sheetpath names="/Sheet5881B464/" tstamps="/5881B465/"/>
       <tstamp>55A029C3</tstamp>
     </comp>
@@ -97,7 +97,7 @@
     </comp>
     <comp ref="C16">
       <value>3300uF</value>
-      <footprint>x_components:x_Ca_Radial13mm</footprint>
+      <footprint>x_components:x_CapRadial13mm</footprint>
       <libsource lib="device" part="CP"/>
       <sheetpath names="/Sheet5881B464/" tstamps="/5881B465/"/>
       <tstamp>55A02F6C</tstamp>
@@ -188,7 +188,7 @@
     </comp>
     <comp ref="D2">
       <value>LED</value>
-      <footprint>x_components:x_Led</footprint>
+      <footprint>x_components:x_LedBlue</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/Sheet5881B464/" tstamps="/5881B465/"/>
       <tstamp>59501B20</tstamp>
@@ -210,11 +210,7 @@
     <libpart lib="device" part="C">
       <description>Unpolarized capacitor</description>
       <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
+        <fp>C_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
@@ -225,8 +221,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <description>Connector, single row, 01x03</description>
+    <libpart lib="PSU-cache" part="CONN_01X03">
       <footprints>
         <fp>Pin_Header_Straight_1X03</fp>
         <fp>Pin_Header_Angled_1X03</fp>
@@ -246,13 +241,7 @@
     <libpart lib="device" part="CP">
       <description>Polarised capacitor</description>
       <footprints>
-        <fp>CP*</fp>
-        <fp>C_Axial*</fp>
-        <fp>C_Radial*</fp>
-        <fp>TantalC*</fp>
-        <fp>C*elec</fp>
-        <fp>c_elec*</fp>
-        <fp>SMD*_Pol</fp>
+        <fp>CP_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
@@ -266,8 +255,7 @@
     <libpart lib="device" part="D">
       <description>Diode</description>
       <footprints>
-        <fp>Diode_*</fp>
-        <fp>D-*</fp>
+        <fp>TO-???*</fp>
         <fp>*SingleDiode</fp>
         <fp>*_Diode_*</fp>
         <fp>*SingleDiode*</fp>
@@ -296,7 +284,7 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="regul" part="LM7805CT">
+    <libpart lib="PSU-cache" part="LM7805CT">
       <aliases>
         <alias>LM7806CT</alias>
         <alias>LM7808CT</alias>
@@ -315,8 +303,6 @@
         <alias>LM7818ACT</alias>
         <alias>LM7824ACT</alias>
       </aliases>
-      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
-      <docs>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</docs>
       <footprints>
         <fp>TO*</fp>
       </footprints>
@@ -331,7 +317,7 @@
         <pin num="3" name="OUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="regul" part="LM7905CT">
+    <libpart lib="PSU-cache" part="LM7905CT">
       <aliases>
         <alias>LM7906CT</alias>
         <alias>LM7908CT</alias>
@@ -342,8 +328,6 @@
         <alias>LM7918CT</alias>
         <alias>LM7924CT</alias>
       </aliases>
-      <description>Negative 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
-      <docs>http://www.fairchildsemi.com/ds/LM/LM7905.pdf</docs>
       <footprints>
         <fp>TO*</fp>
       </footprints>
@@ -362,7 +346,7 @@
       <description>Resistor</description>
       <footprints>
         <fp>R_*</fp>
-        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
@@ -387,68 +371,62 @@
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="regul">
-      <uri>/usr/share/kicad/library/regul.lib</uri>
-    </library>
     <library logical="PSU-cache">
-      <uri>PSU-cache.lib</uri>
+      <uri>/home/misha/git/XFPCB-0004_PSU/xf3_psu/PSU-cache.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/Sheet5881B464/AC18V0">
-      <node ref="P1" pin="3"/>
+    <net code="1" name="GND">
+      <node ref="C16" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="2" name="/Sheet5881B464/-18V0">
+      <node ref="D2" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="D9" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="3" name="/Sheet5881B464/AC18V0">
       <node ref="D3" pin="2"/>
+      <node ref="P1" pin="3"/>
     </net>
-    <net code="2" name="/Sheet5881B464/AC18V1">
-      <node ref="D3" pin="3"/>
+    <net code="4" name="/Sheet5881B464/AC18V1">
       <node ref="P1" pin="1"/>
+      <node ref="D3" pin="3"/>
     </net>
-    <net code="3" name="Net-(P4-Pad~)">
-      <node ref="P4" pin="~"/>
-    </net>
-    <net code="4" name="Net-(P5-Pad~)">
-      <node ref="P5" pin="~"/>
-    </net>
-    <net code="5" name="Net-(P6-Pad~)">
-      <node ref="P6" pin="~"/>
+    <net code="5" name="/Sheet5881B464/+18V0">
+      <node ref="U3" pin="3"/>
+      <node ref="P2" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D1" pin="2"/>
     </net>
     <net code="6" name="Net-(P3-Pad~)">
       <node ref="P3" pin="~"/>
     </net>
-    <net code="7" name="/Sheet5881B464/+18V0">
-      <node ref="D6" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U3" pin="3"/>
-      <node ref="D7" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="P2" pin="1"/>
+    <net code="7" name="Net-(P4-Pad~)">
+      <node ref="P4" pin="~"/>
     </net>
-    <net code="8" name="GND">
-      <node ref="C17" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C15" pin="2"/>
-      <node ref="U3" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="D6" pin="2"/>
-      <node ref="D10" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="P1" pin="2"/>
-      <node ref="P2" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C18" pin="1"/>
+    <net code="8" name="Net-(P5-Pad~)">
+      <node ref="P5" pin="~"/>
     </net>
-    <net code="9" name="/Sheet5881B464/-18V0">
-      <node ref="D10" pin="2"/>
-      <node ref="D9" pin="1"/>
-      <node ref="C18" pin="2"/>
-      <node ref="U4" pin="3"/>
-      <node ref="P2" pin="3"/>
-      <node ref="D2" pin="1"/>
+    <net code="9" name="Net-(P6-Pad~)">
+      <node ref="P6" pin="~"/>
     </net>
     <net code="10" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1"/>
@@ -456,21 +434,21 @@
     </net>
     <net code="11" name="Net-(C16-Pad2)">
       <node ref="C17" pin="1"/>
-      <node ref="C16" pin="2"/>
       <node ref="D9" pin="2"/>
-      <node ref="U4" pin="2"/>
       <node ref="D3" pin="4"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U4" pin="2"/>
     </net>
     <net code="12" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
       <node ref="R7" pin="2"/>
+      <node ref="D2" pin="2"/>
     </net>
     <net code="13" name="Net-(C14-Pad1)">
-      <node ref="D3" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="D7" pin="1"/>
       <node ref="C14" pin="1"/>
       <node ref="U3" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="C15" pin="1"/>
+      <node ref="D3" pin="1"/>
     </net>
   </nets>
 </export>
