@@ -21,7 +21,6 @@ Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This pow
 
 ## Application:
 ![Xform3 XFPCB-0004 Bipolar Power Supply Application](../master/graphics/kicad_psu_application.png)
-![Xform3 XFPCB-0004 Bipolar Power Supply Application](../master/graphics/xf3_xfpcb-0004_psu_vct_transformer.jpg)
 
 ## Schematic
 ![Xform3 XFPCB-0004 Bipolar Power Supply KiCAD Schema](../master/graphics/kicad_psu_schema.png)
@@ -40,3 +39,6 @@ Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This pow
 
 ## FreeCAD Model
 ![Xform3 XFPCB-0004 Bipolar Power Supply FreeCAD Model](../master/graphics/kicad_psu_3d_freecad.png)
+
+## VCT Center tap Transformer
+![Xform3 XFPCB-0004 Bipolar Power Supply Application](../master/graphics/xf3_xfpcb-0004_psu_vct_transformer.jpg)
