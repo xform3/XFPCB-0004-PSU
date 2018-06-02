@@ -1,4 +1,4 @@
-* [xform3_psu](https://i.imgur.com/pRafEib.png)  
+![Xform3](https://i.imgur.com/pRafEib.png)
 
 # XFPCB-0004 Regulated Bipolar Power Supply 36W
 Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This power supply is intended to be used with 18-0-18 VAC center tapped transformer for audio/amplifier applications.
