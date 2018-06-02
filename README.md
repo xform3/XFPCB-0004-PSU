@@ -2,12 +2,10 @@
 Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This power supply is intended to be used with 18-0-18 VAC center tapped transformer for audio/amplifier applications.
 
 ## Specifications
-
-### Input Voltage:  18-0-18 VAC 1A @ 47-63Hz
-### Output Voltage: +18 VDC | 0 VDC | -18 VDC
+- Input Voltage:  18-0-18 VAC 1A @ 47-63Hz
+- Output Voltage: +18 VDC | 0 VDC | -18 VDC
 
 ## Features
-
 - Input Voltage Filtering
 - Output Voltage Stable to ±0.005VDC
 - Rated 36W
