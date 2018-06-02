@@ -7,9 +7,9 @@ Dual ±DC Output Power Supply, built around LM7918 & LM1818 regulators. This pow
 ### Output Voltage: +18 VDC | 0 VDC | -18 VDC
 
 ## Features
--Input Voltage Filtering
--Output Voltage Stable to ±0.005VDC
--Rated 36W
+###- Input Voltage Filtering
+###- Output Voltage Stable to ±0.005VDC
+###- Rated 36W
 
 ## [Compatible with XFPCB-0003_AMP Class-AB Amplifier](https://github.com/xform3/xfpcb-0003-amp)
 
