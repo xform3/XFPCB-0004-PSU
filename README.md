@@ -10,7 +10,7 @@ Dual ±DC Output Power Supply, built around LM79XX & LM18XX regulators. This pow
 - Throught-hole components, single-layer clad.
 
 ## Variations 
-(By replacing LM78xx & LM79xx Voltage can be adjusted respectivly)
+(By replacing LM78xx & LM79xx Voltage can be adjusted respectively)
 * 6V-0-6V (12W)   - LM7906 & LM7806
 * 12V-0-12V (24W) - LM7912 & LM7812
 * 15V-0-15V (30W) - LM7915 & LM7816
