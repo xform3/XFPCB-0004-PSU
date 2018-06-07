@@ -8,10 +8,10 @@ Dual ±DC Output Power Supply, built around LM79XX & LM18XX regulators. This pow
 - Output Voltage: +18 VDC | 0 VDC | -18 VDC
 
 ## Variations
-6V-0-6V (12W) - LM7906 & LM7806
-12V-0-12V (24W) - LM7912 & LM7812
-15V-0-15V (30W) - LM7915 & LM7816
-18V-0-18V (36W) - LM7918 & LM7818
+*6V-0-6V (12W) - LM7906 & LM7806
+*12V-0-12V (24W) - LM7912 & LM7812
+*15V-0-15V (30W) - LM7915 & LM7816
+*18V-0-18V (36W) - LM7918 & LM7818
 
 ## Features
 - Input Voltage Filtering
