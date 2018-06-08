@@ -56,4 +56,4 @@ Dual ±DC Output Power Supply, built around LM79XX & LM18XX regulators. This pow
 
 ## Amplifier [Using: XFPCB-0003 Class-AB Amplifier 20-30W LM1875 or TDA2030](https://github.com/xform3/xfpcb-0003-amp)
 ![Xform3 XFPCB-0003 Class-AB Amplifier](https://github.com/xform3/xfpcb-0003-amp/blob/master/graphics/PSU_amp_compbo.png)
-![Xform3 XFPCB-0003 Class-AB Amplifier](../master/graphics/PSU_amp_transformer_combo.png)
+![Xform3 XFPCB-0003 Class-AB Amplifier](https://github.com/xform3/xfpcb-0003-amp/blob/master/graphics/PSU_amp_transformer_combo.png)
