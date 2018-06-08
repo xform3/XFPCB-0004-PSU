@@ -53,3 +53,7 @@ Dual ±DC Output Power Supply, built around LM79XX & LM18XX regulators. This pow
 
 ## VCT Center tap Transformer
 ![Xform3 XFPCB-0004 Bipolar Power Supply Application](../master/graphics/xf3_xfpcb-0004_psu_vct_transformer.jpg)
+
+## Amplifier [Using: XFPCB-0003 Class-AB Amplifier 20-30W LM1875 or TDA2030](https://github.com/xform3/xfpcb-0003-amp)
+![Xform3 XFPCB-0003 Class-AB Amplifier](../master/graphics/PSU_amp_combo2.png)
+![Xform3 XFPCB-0003 Class-AB Amplifier](../master/graphics/PSU_amp_transformer_combo.png)
